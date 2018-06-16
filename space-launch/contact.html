@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="contact,launch, launches, space, rocket, spaceflight, rocket launch">
+      <meta name=”description” content="contact page space launch website">
+      <title>Contact Us, Space Launch</title>
+      <link rel="stylesheet" href="css/main.css">
+   </head>
+   <body>
+      <header>
+         <div id="hamburger-icon">&#9776;</div>
+         <nav id="hamburger-menu">
+            <ul>
+               <li><a href="index.html">HOMEPAGE</a></li>
+               <li><a href="launches.html">LAUNCHES</a></li>
+               <li><a href="rockets.html">ROCKETS</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+         </nav>
+         <a href="index.html" id="logo">
+            <h1>SPACE LAUNCH</h1>
+         </a>
+         <nav id="fullscreen-menu">
+            <ul>
+               <li><a href="index.html">HOMEPAGE</a></li>
+               <li><a href="launches.html">LAUNCHES</a></li>
+               <li><a href="rockets.html">ROCKETS</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="contact.html" style="border-bottom: 2px solid white">CONTACT</a></li>
+            </ul>
+         </nav>
+      </header>
+      <section id="page-container">
+         <div id="contact-container">
+            <form action="javascript:void(0);" onsubmit="return check()">
+               <h2>Contact us</h2>
+               <input type="text" id="yourName" name="yourName" placeholder="Your name..">
+               <span class="error" id="nameError">Please enter your name</span>
+               <input type="email" id="email" name="email" placeholder="Your email..">
+               <span class="error" id="emailError">Please enter your email address</span>
+               <textarea id="subject" name="subject" placeholder="Your message.."></textarea>
+               <input type="submit" value="Send Message">
+            </form>
+            <div id="myModal" class="modal">
+               <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Thank you!</p>
+                  <p>Your message was sent.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <div id="footer-menu">
+            <ul>
+               <li><a href="index.html">HOMEPAGE</a></li>
+               <li><a href="launches.html">LAUNCHES</a></li>
+               <li><a href="rockets.html">ROCKETS</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+         </div>
+         <p>Copyright &#169;</p>
+      </footer>
+      <script src="scripts/contact.js"></script>
+      <script src="scripts/script.js"></script>   
+   </body>
+</html>

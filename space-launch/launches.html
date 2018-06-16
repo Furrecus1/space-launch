@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="space, launch, launches, falcon9, schedule">
+      <meta name=”description” content="Information about upcoming and previous spaceX launches">
+      <title>Launch, Space</title>
+      <link rel="stylesheet" href="css/main.css">
+   </head>
+   <body>
+      <header>
+         <div id="hamburger-icon">&#9776;</div>
+         <nav id="hamburger-menu">
+            <ul>
+               <li><a href="index.html">HOMEPAGE</a></li>
+               <li><a href="launches.html">LAUNCHES</a></li>
+               <li><a href="rockets.html">ROCKETS</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+         </nav>
+         <a href="index.html" id="logo">
+            <h1>SPACE LAUNCH</h1>
+         </a>
+         <nav id="fullscreen-menu">
+            <ul>
+               <li><a href="index.html">HOMEPAGE</a></li>
+               <li><a href="launches.html" style="border-bottom:2px solid white">LAUNCHES</a></li>
+               <li><a href="rockets.html">ROCKETS</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+         </nav>
+      </header>
+      <section id="page-container">
+         <div id="flex-container">
+            <div id="latest-container">
+               <h2>LATEST SPACEX LAUNCH</h2>
+               <div id="latest-launch"></div>
+            </div>
+            <div id="upcoming-container">
+               <h3>Upcoming Launches</h3>
+               <div id="upcoming-launches"></div>
+            </div>
+         </div>
+         <div id="previous-container">
+            <div id="pre-launch-head">
+               <h3>Search for Previous Launches</h3>
+               <form>
+                  <input type="text" id="myInput" onkeyup="preLaunchesSearch()" placeholder="Search for missions, Try Iridium" title="Type in a name">
+               </form>
+            </div>
+            <div id="previous-launch"></div>
+         </div>
+      </section>
+      <footer>
+         <div id="footer-menu">
+            <ul>
+               <li><a href="index.html">HOMEPAGE</a></li>
+               <li><a href="launches.html">LAUNCHES</a></li>
+               <li><a href="rockets.html">ROCKETS</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+         </div>
+         <p>Copyright &#169;</p>
+      </footer>
+      <script src="scripts/script.js"></script> 
+      <script src="scripts/launches.js"></script>  
+   </body>
+</html>
